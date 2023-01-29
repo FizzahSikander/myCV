@@ -1,45 +1,112 @@
-h1{
-    color:greenyellow; 
+h1 {
+    color: greenyellow;
     font-size: 80px;
-    font-weight:300;
-    font-style:italic;
-    text-align:center;;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
 }
-#bachelor{
-    color:black; 
-    font-weight:300;
-    font-style:italic;
-    text-align:center;
-    background-color:beige;
-}
-#fsc{
-    color:black; 
-    font-weight:300;
-    font-style:italic;
-    text-align:center;
+
+#bachelor {
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
     background-color: beige;
 }
-#matric{
-    color:black; 
-    font-weight:300;
-    font-style:italic;
-    text-align:center;
+
+#fsc {
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
     background-color: beige;
 }
-.my-intro, .my-achievements{
-    color:purple; 
-    font-weight:300;
-    font-style:italic;
-    text-align:center;
+
+#matric {
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    background-color: beige;
 }
-body{
-    background-image: url(../images/background.jpg);
+
+.para {
+    color: purple;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/second-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 2000vh;
 }
-img{
-    border:black;border-width:4px;;border-style: dotted;
+
+img {
+    border: black;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.my-name {
+    background-image: url(../images/namebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-style: italic;
+}
+
+.my-pic {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.heading2 {
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #333333;
+    text-align: center;
+}
+
+.footer-h {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+}
+
+.contact {
+    display: inline;
+    margin-right: 125px;
+}
+
+#my-contact {
+    text-align: center;
 }
